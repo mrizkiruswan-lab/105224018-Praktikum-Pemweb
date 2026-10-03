@@ -69,8 +69,6 @@ keyboard melewati bagian navigasi dan langsung menuju konten utama.
 
 ### Bukti Accessibility Tree
 
-![Accessibility Tree](../../assets/modul-02/accessibility-tree.png)
-
 Hasil pemeriksaan pada DevTools menunjukkan struktur landmark seperti:
 
 - banner
@@ -94,8 +92,6 @@ layar yang lebih besar.
 Pada ukuran layar 360 px, navigasi berubah menjadi susunan vertikal. Kartu
 fitur juga ditampilkan dalam satu kolom agar konten tidak terlalu sempit.
 
-![Tampilan 360 px](../../assets/modul-02/responsive-360px.png)
-
 Hasil pengujian menunjukkan bahwa elemen halaman tetap berada di dalam area
 layar dan tidak menghasilkan gulir horizontal.
 
@@ -105,15 +101,11 @@ Pada ukuran layar 768 px, layout mulai menggunakan ruang yang lebih besar.
 Kartu fitur dapat ditampilkan dalam dua kolom sehingga penggunaan ruang
 menjadi lebih efektif.
 
-![Tampilan 768 px](../../assets/modul-02/responsive-768px.png)
-
 ### Pengujian 1280 px
 
 Pada ukuran layar 1280 px, halaman menggunakan layout desktop. Kartu fitur
 ditampilkan dalam tiga kolom dan bagian konten dengan informasi tambahan
 ditampilkan berdampingan.
-
-![Tampilan 1280 px](../../assets/modul-02/responsive-1280px.png)
 
 ### Kelas Tailwind yang Digunakan
 
@@ -158,8 +150,6 @@ layar 360 px, 768 px, dan 1280 px.
 Audit aksesibilitas dilakukan menggunakan Lighthouse pada halaman utama
 produk. Hasil audit menunjukkan skor **96** untuk kategori Accessibility.
 
-![Hasil Lighthouse halaman utama](../../assets/modul-02/lighthouse-utama-96.png)
-
 Skor 96 telah memenuhi target minimal 85 yang ditetapkan pada Modul 2.
 
 ### Temuan Audit
@@ -167,8 +157,6 @@ Skor 96 telah memenuhi target minimal 85 yang ditetapkan pada Modul 2.
 Pada proses audit ditemukan masalah pada rasio kontras warna teks. Lighthouse
 menunjukkan bahwa terdapat teks yang memiliki kontras kurang memadai terhadap
 background.
-
-![Temuan kontras Lighthouse](../../assets/modul-02/lighthouse-contrast.png)
 
 Masalah tersebut terjadi karena beberapa teks menggunakan warna abu-abu yang
 terlalu gelap terhadap latar belakang.
